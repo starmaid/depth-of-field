@@ -6,6 +6,14 @@ This concept is just like a video game, where the depthbuffer is used to fake th
 
 I'm realizing that numpy and python don't have the shader capabilities that I need to do this. I can't be looping over every element in an image to do a simple pixel shader. I'm probably going to try webGL next, because that was already something I wanted to learn how to stream depth information to.
 
+## set up
+
+```
+py -m venv venv
+.\venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
 ## Ref
 
 [Acerola youtube video](https://www.youtube.com/watch?v=v9x_50czf-4)
